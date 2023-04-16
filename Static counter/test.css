@@ -12,6 +12,7 @@
 #increase:hover {
   font-size: 1.3rem;
   transition: 0.6s;
+  background-color: rgba(27, 27, 27, 0.801);
 }
 
 #reset {
@@ -28,6 +29,7 @@
 #reset:hover {
   font-size: 1.3rem;
   transition: 0.6s;
+  background-color: rgba(27, 27, 27, 0.801);
 }
 
 #decrease {
@@ -44,6 +46,7 @@
 #decrease:hover {
   font-size: 1.3rem;
   transition: 0.6s;
+  background-color: rgba(27, 27, 27, 0.801);
 }
 
 .main {

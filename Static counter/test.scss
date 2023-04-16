@@ -13,6 +13,7 @@
 @mixin tohover {
     font-size: 1.3rem;
     transition: .6s;
+    background-color: rgba(27, 27, 27, 0.801);
 }
 
 #increase {
