@@ -1,0 +1,54 @@
+@mixin important-text {
+    display: inline-block;
+    width: 120px;
+    height: 3rem;
+    margin-top: 60px;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+@mixin tohover {
+    font-size: 1.3rem;
+    transition: .6s;
+}
+
+#increase {
+    @include important-text();
+
+    &:hover {
+        @include tohover();
+    }
+}
+
+#reset {
+    @include important-text();
+
+    &:hover {
+        @include tohover();
+    }
+}
+
+#decrease {
+    @include important-text();
+
+    &:hover {
+        @include tohover();
+    }
+}
+
+
+.main {
+    display: inline-block;
+    margin-top: 80px;
+    padding-left: 35%;
+}
+
+.count {
+    display: block;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
